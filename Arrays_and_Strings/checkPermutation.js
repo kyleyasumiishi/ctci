@@ -4,6 +4,9 @@ Given two strings, write a method to decide if one is a permutation of the other
 Solution Tips
 - Ask if permutation comparison is case sensitive and if whitespace is significant.
 - Strings of different lengths cannot be permutations of each other. Therefore, sorting the strings will put the characters from two permutations in the same order. Then we just need to compare the sorted versions of the strings.
+
+Kyle Reminders
+- When writing code by hand, make sure to use () with if statements.
 */
 
 function checkPermutation(str1, str2) {
